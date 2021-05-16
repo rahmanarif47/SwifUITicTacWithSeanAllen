@@ -15,6 +15,7 @@
 		7F07DBF62642959800545B05 /* TicTacToe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7F07DBF42642959800545B05 /* TicTacToe.xcdatamodeld */; };
 		7F07DC012642959900545B05 /* TicTacToeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F07DC002642959900545B05 /* TicTacToeTests.swift */; };
 		7F07DC0C2642959900545B05 /* TicTacToeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F07DC0B2642959900545B05 /* TicTacToeUITests.swift */; };
+		7F3A2DED2643DEBA00B3AC7B /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3A2DEC2643DEBA00B3AC7B /* Alerts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		7F07DC072642959900545B05 /* TicTacToeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicTacToeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F07DC0B2642959900545B05 /* TicTacToeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeUITests.swift; sourceTree = "<group>"; };
 		7F07DC0D2642959900545B05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F3A2DEC2643DEBA00B3AC7B /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				7F07DBF72642959800545B05 /* Info.plist */,
 				7F07DBF42642959800545B05 /* TicTacToe.xcdatamodeld */,
 				7F07DBEF2642959800545B05 /* Preview Content */,
+				7F3A2DEC2643DEBA00B3AC7B /* Alerts.swift */,
 			);
 			path = TicTacToe;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F07DBF32642959800545B05 /* Persistence.swift in Sources */,
+				7F3A2DED2643DEBA00B3AC7B /* Alerts.swift in Sources */,
 				7F07DBEC2642959600545B05 /* ContentView.swift in Sources */,
 				7F07DBF62642959800545B05 /* TicTacToe.xcdatamodeld in Sources */,
 				7F07DBEA2642959600545B05 /* TicTacToeApp.swift in Sources */,
